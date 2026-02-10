@@ -62,7 +62,7 @@ jobs:
           uses: marvinpinto/action-automatic-releases@latest
           with:
             title: Continuous ESR
-            automatic_release_tag: continuous-stable
+            automatic_release_tag: continuous-esr
             prerelease: false
             draft: false
             files: |
